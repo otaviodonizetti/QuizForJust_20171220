@@ -1,0 +1,25 @@
+.score {
+    max-width: 100px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+
+    &--correct {
+        color: #80f585;
+    }
+
+    &--wrong {
+        color: #e87676;
+    }
+
+    &__title {
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid;
+        font-size: 1.9em;
+    }
+
+    &__points {
+        font-size: 4em;
+    }
+}

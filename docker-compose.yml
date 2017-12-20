@@ -1,0 +1,14 @@
+
+version: '2'
+services:
+  marvel:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      NODE_ENV: development
+    ports:
+      - '3000:3000'
+    volumes:
+      - .:/home/app/marvel
+      - /home/app/marvel/node_modules

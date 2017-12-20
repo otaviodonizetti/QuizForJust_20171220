@@ -1,0 +1,17 @@
+.timer {
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+
+    &__title {
+        text-transform: uppercase;
+        font-weight: bold;
+        display: inline-block;    
+    }
+
+    &__seconds {
+        display: inline-block;
+        font-weight: lighter;
+        margin-left: 20px;
+    }
+}

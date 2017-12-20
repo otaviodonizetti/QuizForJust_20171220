@@ -1,0 +1,33 @@
+.button {
+    color: #fff;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 0;
+    min-width: 120px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 1.3em;
+    margin-top: 10px;
+    cursor: pointer;
+    outline: 0;
+    
+
+    & + .button {
+        margin-left: 30px;
+    }
+
+    &[disabled] {
+        opacity: 0.6;
+    }
+
+    &--default {
+        background: #f0141e;
+    }
+
+    &--secondary {
+        background: #ffffff;
+        color: #f0141e;
+    }
+}

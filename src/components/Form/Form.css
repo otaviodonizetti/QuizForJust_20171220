@@ -1,0 +1,31 @@
+.form {
+  max-width: 500px;
+  margin: 0 auto; }
+  .form__title {
+    color: #f0141e;
+    font-size: 1.6em;
+    margin-bottom: 10px; }
+  .form__input {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #f0141e;
+    font-size: 1em;
+    color: #fff;
+    outline: 0;
+    box-sizing: border-box; }
+    .form__input::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: #fff; }
+    .form__input::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #fff; }
+    .form__input:-ms-input-placeholder {
+      /* IE 10+ */
+      color: #fff; }
+    .form__input:-moz-placeholder {
+      /* Firefox 18- */
+      color: #fff; }
+  .form__buttons {
+    text-align: right; }

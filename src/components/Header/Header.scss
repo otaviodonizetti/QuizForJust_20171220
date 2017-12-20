@@ -1,0 +1,43 @@
+.header {
+    background:#f0141e;
+    margin-bottom: 20px;
+
+    &__logo {
+        position: relative;
+        display: block;
+        width: 100px;
+        height: 78px;
+        background: url('https://i.annihil.us/u/prod/misc/marvel.svg') no-repeat;
+        overflow: hidden;
+        text-indent: -99999px;
+        font-size: 0px;
+        background-position: 0px 21px;
+    }
+
+    &__title {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        font-size: 2em;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: 20px;
+        top: 24px;
+    
+    }
+    
+    @media (max-width: 960px) {
+        .header__logo {
+            margin: 0 auto;
+        }
+
+        .header__title {
+            position: relative;
+            top: initial;
+            left: initial;
+            display: block;
+            padding-bottom: 30px;
+        }
+    }
+}

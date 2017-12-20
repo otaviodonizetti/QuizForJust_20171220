@@ -1,0 +1,42 @@
+.form {
+    max-width: 500px;
+    margin: 0 auto;
+
+    &__title {
+        color: #f0141e;
+        font-size: 1.6em;
+        margin-bottom: 10px;
+    }
+
+    &__input {
+        width: 100%;
+        padding: 10px;
+        background: transparent;
+        border: 0;
+        border-bottom: 1px solid #f0141e;
+        font-size: 1em;
+        color: #fff;
+        outline: 0;
+        box-sizing: border-box;
+
+        &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+            color: #fff;
+        }
+
+        &::-moz-placeholder { /* Firefox 19+ */
+            color: #fff;
+        }
+
+        &:-ms-input-placeholder { /* IE 10+ */
+            color: #fff;
+        }
+
+        &:-moz-placeholder { /* Firefox 18- */
+            color: #fff;
+        }
+    }
+
+    &__buttons {
+        text-align: right;
+    }
+}

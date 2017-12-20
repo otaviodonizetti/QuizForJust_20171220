@@ -1,0 +1,34 @@
+.quiz {
+  overflow: auto; }
+  .quiz__left, .quiz__right {
+    width: 48%;
+    float: left; }
+  .quiz__right {
+    margin-left: 4%; }
+  .quiz .score {
+    margin: 50px auto; }
+  .quiz .timer {
+    top: 20px; }
+  @media (max-width: 960px) {
+    .quiz__left, .quiz__right {
+      width: 100%;
+      float: none;
+      margin: 0; }
+    .quiz__left {
+      margin-bottom: 30px; }
+    .quiz .timer {
+      position: relative;
+      margin: 0 auto;
+      top: initial;
+      display: block;
+      text-align: center;
+      margin-top: 30px; }
+    .quiz .character {
+      margin: 0 auto; }
+    .quiz .form__buttons {
+      text-align: center; } }
+  @media (max-width: 440px) {
+    .quiz .form__buttons .button {
+      display: block;
+      width: 100%;
+      margin-left: 0; } }

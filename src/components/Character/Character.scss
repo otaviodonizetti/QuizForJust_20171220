@@ -1,0 +1,29 @@
+.character {
+    max-width: 500px;
+    color: #fff;
+    text-align: center;
+
+    &__image {
+        max-height: 400px;
+        overflow: hidden;
+        
+        img {
+            max-width: 100%;
+        }
+    }
+
+    &__name {
+        width: 100%;
+        display: block;
+        padding: 10px 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        border-top: 1px solid #f0141e;
+        border-bottom: 1px solid #f0141e;
+        font-size: 2em;
+        text-transform: uppercase;
+        font-weight: lighter;
+        text-align: center;
+    }
+}
